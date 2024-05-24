@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "tvos", "android", "web"],
+  "ios": {
+    "modules": ["ExpoTerraSdkModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.terrasdk.ExpoTerraSdkModule"]
+  }
+}

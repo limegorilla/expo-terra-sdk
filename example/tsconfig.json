@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-terra-sdk": ["../src/index"],
+      "expo-terra-sdk/*": ["../src/*"]
+    }
+  }
+}
